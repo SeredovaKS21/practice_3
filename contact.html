@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>3 Column Layout</title>
+   <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+<body>
+<header class="header"><p><img src = "assets/img/logo.jpg" width = "50" height = "40"></p></header>
+<div class="container">
+   <main class="center column">
+       <article>
+           <h1>Contact</h1>
+           <p><form  action="handler.php"  id="form1" method="post">
+		    <label for="fname">First name:</label>
+				<input type="text" id="fname" name="fname"><br><br>
+		    <label for = "bday">Birthday:</label>
+				<input type = "date" id = "bday" name = "bday"><br><br>
+		    <label for = "email">Enter your email:</label>
+				<input type = "email" id = "email" name = "email"><br><br>
+				<input type="radio" id="male" name="gender" value="male">
+		    <label for="male">Male</label><br>
+				<input type="radio" id="female" name="gender" value="female">
+		    <label for="female">Female</label><br><br>
+		    <label for="country">Choose a country:</label>
+				<select id="country" name="country">
+					<option value="australia">Australia</option>
+					<option value="austria">Austria</option>
+					<option value="bangladesh">Bangladesh</option>
+					<option value="belarus">Belarus</option>
+					<option value="brazil">Brazil</option>
+					<option value="canada">Canada</option>
+					<option value="china">China</option>
+					<option value="denmark">Denmark</option>
+					<option value="ecuador">Ecuador</option>
+					<option value="france">France</option>
+					<option value="georgia">Georgia</option>
+					<option value="germany">Germany</option>
+					<option value="greece">Greece</option>
+					<option value="haiti">Haiti</option>
+					<option value="hungary">Hungary</option>
+					<option value="ireland">Ireland</option>
+					<option value="italy">Italy</option>
+					<option value="japan">Japan</option>
+					<option value="luxembourg">Luxembourg</option>
+					<option value="maldives">Maldives</option>
+					<option value="philippines">Philippines</option>
+					<option value="romania">Romania</option>
+					<option value="russia">Russia</option>
+					<option value="serbia">Serbia</option>
+					<option value="slovakia">Slovakia</option>
+					<option value="spain">Spain</option>
+					<option value="thailand">Thailand</option>
+					<option value="ukraine">Ukraine</option>
+					<option value="united kingdom">United Kingdom</option>
+					<option value="united states">United States</option>
+					<option value="vatican city">Vatican City</option>
+					<option value="venezuela">Venezuela</option>
+				</select>
+		    <br><br>
+		    <label for = "phone">Enter your phone number:</label>
+				<input type = "tel" id = "phone" name = "phone"><br><br>
+		    <label for="pwd">Password:</label>
+				<input type="password" id="pwd" name="pwd"><br><br>
+		    <input type="checkbox" id="accept" name="accept" value="accept">
+		    <label for="accept"> I accept terms and conditions</label>
+		    <br><br>
+		    <textarea name="message" rows="5" cols="30" >LOREM IPSUM
+	        </textarea>
+		    <br><br>
+			<input name = "myFile" type = "file"><br><br>
+		    <input type="submit" value="Submit">
+		    </form></p>
+       </article>
+   </main>
+   <nav class="left column">
+       <h3>Links</h3>
+       <ul>
+		   <li><a href="about.html">About</a></li>
+		   <li><a href="slider.html">Slider</a></li>
+		   <li><a href="media.html">Media</a></li>
+		   <li><a href="table.html">Table</a></li>
+		   <li><a href="index.html">Index</a></li>
+       </ul>
+   </nav>
+   <div class="right column">
+       <h3>Right heading</h3>
+       <p></p>
+   </div>
+   <div class="push"></div>
+</div>
+<div class="footer-wrapper">
+   <footer class="footer"><p><img src = "assets/img/logo.jpg" width = "40" height = "30"></p></footer>
+</div>
+</body>
+</html>
+
